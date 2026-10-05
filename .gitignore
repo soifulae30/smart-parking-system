@@ -1,0 +1,26 @@
+# Compiler output
+build/
+*.o
+*.out
+
+# Runtime log (keep the folder, not the contents)
+logs/*.log
+
+# Editor / OS files
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Debugger files
+core
+*.core
+
+echo "build_tsan/" >> .gitignorebuild_tsan/
+
+echo "build_asan/" >> .gitignorebuild_asan/
+
+echo "logs/demo_console.log" >> .gitignorebuild/
+build_tsan/
+build_asan/
+logs/*.log

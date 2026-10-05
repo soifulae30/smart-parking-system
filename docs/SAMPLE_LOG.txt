@@ -1,0 +1,30 @@
+2026-10-04 17:04:23 [INFO] logging started
+2026-10-04 17:04:23 [INFO] slot=1 UNKNOWN -> OCCUPIED source=api
+2026-10-04 17:04:23 [INFO] slot=2 UNKNOWN -> FREE source=api
+2026-10-04 17:04:23 [INFO] slot=2 FREE -> UNKNOWN source=api
+2026-10-04 17:04:23 [ERROR] rejected request: invalid state 'BANANA'
+2026-10-04 17:04:23 [ERROR] invalid slot id 999 (source: api)
+2026-10-04 17:04:23 [ERROR] rejected request: slot id in URL is not a valid number
+2026-10-04 17:04:23 [ERROR] request body exceeds size limit
+2026-10-04 17:04:23 [INFO] logging stopped
+2026-10-04 17:04:24 [INFO] logging started
+2026-10-04 17:04:24 [INFO] slot=1 UNKNOWN -> OCCUPIED source=sensor
+2026-10-04 17:04:24 [INFO] slot=3 UNKNOWN -> OCCUPIED source=sensor
+2026-10-04 17:04:24 [INFO] slot=1 OCCUPIED -> FREE source=sensor
+2026-10-04 17:04:24 [INFO] slot=2 UNKNOWN -> FREE source=sensor
+2026-10-04 17:04:24 [INFO] slot=3 OCCUPIED -> FREE source=sensor
+2026-10-04 17:04:24 [INFO] slot=4 UNKNOWN -> FREE source=sensor
+2026-10-04 17:04:24 [INFO] slot=6 UNKNOWN -> OCCUPIED source=sensor
+2026-10-04 17:04:24 [INFO] slot=1 FREE -> OCCUPIED source=sensor
+2026-10-04 17:04:24 [INFO] slot=4 FREE -> UNKNOWN source=sensor
+2026-10-04 17:04:24 [INFO] slot=5 UNKNOWN -> OCCUPIED source=sensor
+2026-10-04 17:04:25 [INFO] slot=4 UNKNOWN -> FREE source=sensor
+2026-10-04 17:04:25 [INFO] slot=5 OCCUPIED -> UNKNOWN source=sensor
+2026-10-04 17:04:25 [INFO] slot=1 OCCUPIED -> UNKNOWN source=sensor
+2026-10-04 17:04:25 [INFO] slot=5 UNKNOWN -> FREE source=sensor
+2026-10-04 17:04:25 [INFO] slot=6 OCCUPIED -> FREE source=sensor
+2026-10-04 17:04:25 [INFO] slot=1 UNKNOWN -> OCCUPIED source=sensor
+2026-10-04 17:04:25 [INFO] slot=5 FREE -> OCCUPIED source=sensor
+2026-10-04 17:04:26 [INFO] slot=2 FREE -> OCCUPIED source=sensor
+2026-10-04 17:04:26 [INFO] slot=6 FREE -> OCCUPIED source=sensor
+2026-10-04 17:04:26 [INFO] logging stopped
